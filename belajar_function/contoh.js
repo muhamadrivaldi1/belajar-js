@@ -11,6 +11,6 @@ function hello(name, origin = "Bandung") {
   const indra = hello('Indra');
   
   // Menampilkan hasilnya
-  console.log(rival); // Output: Halo! Nama saya Rival. Saya tinggal di Semarang.
+  console.log(rival); // Output: Halo! Nama saya Rival. Saya tinggal di Tangerang.
   console.log(indra);  // Output: Halo! Nama saya Indra. Saya tinggal di Bandung.
   
