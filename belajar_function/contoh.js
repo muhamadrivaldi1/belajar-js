@@ -4,13 +4,13 @@ function hello(name, origin = "Bandung") {
     return `Halo! Nama saya ${name}. Saya tinggal di ${origin}.`;
   }
   
-  // 4. Variabel 'rahmat' memanggil fungsi hello dengan nama dan origin
+  // 4. Variabel 'rival' memanggil fungsi hello dengan nama dan origin
   const rival = hello('Rival', 'Tangerang');
   
   // 5. Variabel 'indra' memanggil fungsi hello hanya dengan nama (origin akan otomatis "Bandung")
   const indra = hello('Indra');
   
   // Menampilkan hasilnya
-  console.log(rival); // Output: Halo! Nama saya Rahmat. Saya tinggal di Semarang.
+  console.log(rival); // Output: Halo! Nama saya Rival. Saya tinggal di Semarang.
   console.log(indra);  // Output: Halo! Nama saya Indra. Saya tinggal di Bandung.
   
